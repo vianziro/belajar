@@ -1,0 +1,99 @@
+/* belajar css */
+
+
+
+body {
+	/*belajar background*/
+	/*background-color: #fdfdfd;*/
+	/*background-image: url('logo.png') ;*/
+ 	/*background-repeat: no-repeat;*/
+ 	/*background-attachment: fixed;*/
+ 	/*background-position: right: ;*/
+	background: #fdfdfd url('logo.png') no-repeat fixed;
+
+
+	font-family:  sans-serif;
+}
+
+
+
+h1{
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*untuk menu dan link atas */
+
+
+
+
+#menu_wrap {
+	margin: 10px 0 50px 0;
+}
+.menu {
+	display: inline-block;
+	/*height: 50px;
+	width: 100px; */
+	text-decoration: none;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+
+	padding: 10px 5px;
+}
+
+.menu:link {
+
+	background: : grey;
+	color: white
+}
+
+/*menu setelah dikunjungi */
+.menu:visited{
+background: yellow;
+}
+/*ketika mouse diatas link*/
+
+.menu:hover  {
+	background: green;
+
+}
+
+/*ketika aktif atau diklik */
+.menu:active {
+	background: white;
+
+}
+
+
+#text_panjang{
+
+	text-align: center;
+	text-indent: 30px;
+	line-height: 20px;
+} 
+#text_pendek {
+
+	background: yellow;
+	font-size:  24 px;
+	font-weight:bold;
+	width: 50px;
+	height: 200px;
+	max-width: 30px;
+	max-height: 100px;
+	display: none;
+}
+
+/*#menu_web {
+	background: yellow;
+}*/
